@@ -1,0 +1,47 @@
+body{
+    background-color:blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    color:cornflowerblue;
+    background-color:antiquewhite;
+    font-weight:bolder;
+    padding-bottom:5px;
+}
+label{
+    color:lightslategrey;
+    font-size: large;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 3px;
+    padding-right:6px;
+}
+legend{
+    color:sandybrown;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+button{
+    background-color:rgb(82, 175, 82);
+    font-size: x-large;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    border-radius: 1.5cm;
+    border: 1px double;
+    margin-right:15px;
+   
+}
+.container{
+    padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+   .container{
+       margin-left: 10px;
+   }
+
+}
+
+

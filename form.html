@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <title>Ticket form</title>
+</head>
+<body>
+    <form name="form1">
+    <div class="container">
+        <div class="row">
+            <h3>Personal Info</h3>
+            <label>First Name:</label><input type="text" name="firstName" placeholder="Enter first name" required />
+        </div>
+        <div class="row">
+            <label>Last Name: </label><input type="text" name="lastName" placeholder="Enter last name" required />
+        </div>
+        <div class="row">
+            <label>Age:</label><input type="number" name="age" min="13" required />
+        </div>
+        <div class="row">
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="female" checked />  female</label>
+            <label><input type="radio" name="gender" value="male" />  male</label>
+            <label><input type="radio" name="gender" value="other" />  other</label> 
+        </div>
+        <div class="row">
+            <label>Email:</label><input type="email" name="email" placeholder="Please enter email" required />
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h3>Credit card info</h3>
+        </div>
+        <div class="row">
+            <label>Credit card number:</label><input type="text" value="" pattern="[0-9]{16}" name="credit-card" required>
+        </div>
+        <div class="row">
+           <label>Valid until:</label><input type="text" value="" pattern="[0-1][0-9]/2[2-9]" required>
+        </div>
+        <div class="row">
+            <label>Control number:</label><input type="text" value="" pattern="[0-9]{3}" required min="100" max="999"><br>
+        </div>
+    </div>
+    <br\></br\>
+    <div class="container">
+        <div class="row">
+            <label>Do you agree with our Terms of Service?</label>
+            <label><input type="radio" ame="termsOfService" value="yes" />  Yes</label>
+            <label><input type="radio" name="termsOfService" value="no" checked />  No</label>
+         </div>
+        <div class="row">
+            <button type="reset" class="btn btn-primary">Reset</button>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    <link rel="stylesheet" href="styles.css">
+    <title>Open air cinema Split</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="nav active">Home</a>
+        <a href="#movies" class="nav">Movies</a>
+        <a href="#menu" class="nav">Menu</a>
+        <a href="#prices" class="nav">Prices</a>
+      </div>  
+    <section id="home">
+        <p>Experience the greatest cinematic experience beneath the stars </p>
+        <p>with the smell of pine trees and the subtle sound of waves</p>
+        <!-- <p>you will undoubtedly have the time of your life</p> -->
+    </section>
+
+    <section id="movies">
+        <div class="container" id="moviesList">
+            <div class="row" id="movie">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4" id="dayTime">
+                    <h3>Monday</h3>
+                    <p>20:00</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMmIwZDMyYWUtNTU0ZS00ODJhLTg2ZmEtMTk5ZmYzODcxODYxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" 
+                    alt="Top Gun: Maverick" width="120" height="180">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-5 col-xxl-4" id="description">
+                    <h3>Top Gun: Maverick</h3>
+                    <p>After more than thirty years of service as one of the Navy's top aviators, 
+                        Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.</p>
+                    <p><b>Genres:</b> Action, Drama</p>
+                    <p><b>Cast:</b> Tom Cruise, Jennifer Connelly, Miles Teller</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-4" id ="buy">
+                    Tickets:  <input id="num" type="number" min="0" max="10" value="1" width="1px">
+                    <button id="buyTicket"><a href="form.html">Buy</a></button>
+                </div>
+            </div>
+            <div class="row" id="movie">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4" id="dayTime">
+                    <h3>Tuesday</h3>
+                    <p>20:00</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/3/34/Fantastic_Beasts-_The_Secrets_of_Dumbledore.png" 
+                    alt="Fantastic Beasts: The Secrets of Dumbledore" width="120" height="180">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-5 col-xxl-4" id="description">
+                    <h3>Fantastic Beasts: The Secrets of Dumbledore</h3>
+                    <p>Professor Albus Dumbledore knows the powerful Dark wizard Gellert Grindelwald is moving to seize control of the wizarding world.
+                         Unable to stop him alone, he entrusts Magizoologist Newt Scamander to lead an intrepid team of wizards, witches and one brave Muggle 
+                         baker on a dangerous mission, where they encounter old and new beasts and clash with Grindelwald's growing legion of followers. 
+                         But with the stakes so high, how long can Dumbledore remain on the sidelines?</p>
+                    <p><b>Genres:</b> Action, Adventure, Fantasy</p>
+                    <p><b>Cast:</b> Eddie Redmayne, Jude Law, Ezra Miller</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-4" id ="buy">
+                    Tickets:  <input id="num" type="number" min="0" max="10" value="1" width="1px">
+                    <button id="buyTicket"><a href="form.html">Buy</a></button>
+                </div>
+            </div>
+            <div class="row" id="movie">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4" id="dayTime">
+                    <h3>Wednesday</h3>
+                    <p>20:00</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4">
+                    <img src="https://www.scrolldroll.com/wp-content/uploads/2022/04/Doctor-strange-Hollywood-movies-releasing-in-may-2022.webp" 
+                    alt="Doctor Strange in the Multiverse of Madness" width="120" height="180">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-5 col-xxl-4" id="description">
+                    <h3>Doctor Strange in the Multiverse of Madness</h3>
+                    <p>Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, 
+                        including other-universe versions of himself, which threaten to wipe out millions across the multiverse. 
+                        They seek help from Wanda the Scarlet Witch, Wong and others.</p>
+                    <p><b>Genres:</b> Action, Adventure, Fantasy, Horror, Sci-Fi</p>
+                    <p><b>Cast:</b> Benedict Cumberbatch, Elizabeth Olsen, Chiwetel Ejiofor</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-4" id ="buy">
+                    Tickets:  <input id="num" type="number" min="0" max="10" value="1" width="1px">
+                    <button id="buyTicket"><a href="form.html">Buy</a></button>
+                </div>
+            </div>
+            <div class="row" id="movie">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4" id="dayTime">
+                    <h3>Thursday</h3>
+                    <p>20:00</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmQ1NDZjMTktMjFhZC00ZGY5LWEyMTMtNDhkOWM4NmMyZjI0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" 
+                    alt="Jurassic World: Dominion" width="120" height="180">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-5 col-xxl-4" id="description">
+                    <h3>Jurassic World: Dominion</h3>
+                    <p>Four years after the destruction of Isla Nublar, dinosaurs now live--and hunt--alongside humans all over the world. This fragile balance 
+                        will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history's 
+                        most fearsome creatures in a new Era.</p>
+                    <p><b>Genres:</b> Action, Adventure, Sci-Fi, Thriller</p>
+                    <p><b>Cast:</b> Chris Pratt, Bryce Dallas Howard, Laura Dern</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-4" id ="buy">
+                    Tickets:  <input id="num" type="number" min="0" max="10" value="1" width="1px">
+                    <button id="buyTicket"><a href="form.html">Buy</a></button>
+                </div>
+            </div>
+            <div class="row" id="movie">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4" id="dayTime">
+                    <h3>Friday</h3>
+                    <p>20:00</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4">
+                    <img src="https://m.media-amazon.com/images/M/MV5BOGNmM2IyMjMtNmU0MC00MzdhLWFlNWYtOTlkZDdiOGEwMTE3XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg" 
+                    alt="Memory" width="120" height="180">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-5 col-xxl-4" id="description">
+                    <h3>Memory</h3>
+                    <p>Alex Lewis (Liam Neeson) is an expert assassin with a reputation for discreet precision. Caught in a moral quagmire, 
+                        Alex refuses to complete a job that violates his code and must quickly hunt down and kill the people who hired him before they 
+                        and FBI agent Vincent Serra (Guy Pearce) find him first. Alex is built for revenge but, with a memory that is beginning to falter, 
+                        he is forced to question his every action, blurring the line between right and wrong.</p>
+                    <p><b>Genres:</b> Action, Thriller</p>
+                    <p><b>Cast:</b> Liam Neeson, Guy Pearce, Taj Atwal</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-4" id ="buy">
+                    Tickets:  <input id="num" type="number" min="0" max="10" value="1" width="1px">
+                    <button id="buyTicket"><a href="form.html">Buy</a></button>
+                </div>
+            </div>
+            <div class="row" id="movie">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4" id="dayTime">
+                    <h3>Saturday</h3>
+                    <p>matinee</p>
+                    <p>15:00</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4">
+                    <img src="https://i.pinimg.com/736x/96/20/65/9620658b4435633babe392cee1e93dc5.jpg" 
+                    alt="Lightyear" width="120" height="180">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-5 col-xxl-4" id="description">
+                    <h3>Lightyear</h3>
+                    <p>The story of Buzz Lightyear and his adventures to infinity and beyond.</p>
+                    <p><b>Genres:</b> Animation, Action, Adventure, Drama, Family, Sci-Fi</p>
+                    <p><b>Cast:</b> Chris Evans(voice), Keke Palmer(voice), Dale Soules(voice)</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-4" id ="buy">
+                    Tickets:  <input id="num" type="number" min="0" max="10" value="1" width="1px">
+                    <button id="buyTicket"><a href="form.html">Buy</a></button>
+                </div>
+            </div>
+            <div class="row" id="movie">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4" id="dayTime">
+                    <h3>Saturday</h3>
+                    <p>20:00</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMmIwZDMyYWUtNTU0ZS00ODJhLTg2ZmEtMTk5ZmYzODcxODYxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" 
+                    alt="Top Gun: Maverick" width="120" height="180">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-5 col-xxl-4" id="description">
+                    <h3>Top Gun: Maverick</h3>
+                    <p>After more than thirty years of service as one of the Navy's top aviators, 
+                        Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.</p>
+                    <p><b>Genres:</b> Action, Drama</p>
+                    <p><b>Cast:</b> Tom Cruise, Jennifer Connelly, Miles Teller</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-4" id ="buy">
+                    Tickets:  <input id="num" type="number" min="0" max="10" value="1" width="1px">
+                    <button id="buyTicket"><a href="form.html">Buy</a></button>
+                </div>
+            </div>
+            <div class="row" id="movie">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4" id="dayTime">
+                    <h3>Sunday</h3>
+                    <p>matinee</p>
+                    <p>15:00</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/Sonic_the_Hedgehog_2_film_poster.jpg" 
+                    alt="Sonic the Hedgehog 2" width="120" height="180">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-5 col-xxl-4" id="description">
+                    <h3>Sonic the Hedgehog 2</h3>
+                    <p>After settling in Green Hills, Sonic is ready for more freedom, and Tom and Maddie agree to leave him home while they go on vacation. 
+                        But, no sooner are they gone, when Dr. Robotnik comes back, this time with a new partner, Knuckles, in search for an emerald that has the power 
+                        to both build and destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a journey to find 
+                        the emerald before it falls into the wrong hands. Being directed by Jeff Fowler, and starring Jim Carrey, James Marsden, and Ben Schwartz.</p>
+                    <p><b>Genres:</b> Action, Adventure, Comedy, Family, Fantasy, Sci-Fi </p>
+                    <p><b>Cast:</b> James Marsden, Jim Carrey, Ben Schwartz</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-4" id ="buy">
+                    Tickets:  <input id="num" type="number" min="0" max="10" value="1" width="1px">
+                    <button id="buyTicket"><a href="form.html">Buy</a></button>
+                </div>
+            </div>
+            <div class="row" id="movie">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4" id="dayTime">
+                    <h3>Sunday</h3>
+                    <p>20:00</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xxl-4">
+                    <img src="https://www.scrolldroll.com/wp-content/uploads/2022/04/Doctor-strange-Hollywood-movies-releasing-in-may-2022.webp" 
+                    alt="Doctor Strange in the Multiverse of Madness" width="120" height="180">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-5 col-xxl-4" id="description">
+                    <h3>Doctor Strange in the Multiverse of Madness</h3>
+                    <p>Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, 
+                        including other-universe versions of himself, which threaten to wipe out millions across the multiverse. 
+                        They seek help from Wanda the Scarlet Witch, Wong and others.</p>
+                    <p><b>Genres:</b> Action, Adventure, Fantasy, Horror, Sci-Fi</p>
+                    <p><b>Cast:</b> Benedict Cumberbatch, Elizabeth Olsen, Chiwetel Ejiofor</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xxl-4" id ="buy">
+                    Tickets:  <input id="num" type="number" min="0" max="10" value="1" width="1px">
+                    <button id="buyTicket"><a href="form.html">Buy</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-4" id="menuList">
+                  <h2>Snacks</h2>
+                  <p>Small popcorn: 15kn</p>
+                  <p>Medium popcorn: 25kn</p>
+                  <p>Large popcorn: 35kn</p>
+                  <p>Nachos: 27kn</p>
+                  <p>M&m : 17kn</p>
+                  <br>
+                  <h2>Refreshments</h2>
+                  <p>Non-alcoholic beverages: Coca cola, Sprite, Fanta</p>
+                  <br>
+                  <p>Small beverage 0.5l: 14kn</p>
+                  <p>Medium beverage 0.75l: 18kn</p>
+                  <p>Large beverage 1l: 22kn</p>  
+                  <br>
+                  <p>Beer 0.5l can: 15kn</p>
+                  <br>
+                  <p>Student menu: medium popcorn + medium beverage: 33kn </p>
+                  
+                  
+              </div>
+              <div class="col-sm-4">
+              </div>
+              <div class="col-sm-4">
+              </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="prices">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+              </div>
+              <div class="col-sm-4">
+              </div>
+              <div class="col-sm-4" id="priceList">
+                <h2>Price list</h2>      
+                <br><br>  
+                <p>Adults : 35kn</p>
+                <p>Children(0-7): free</p>
+                <p>Children(7-12): 20kn</p>
+                <br>
+                <p>Groups(20+ members): 15% discount</p>
+                <br>
+                <p>Student card: 10% discount</p>
+                <p><i>(free of charge, with proof of student status, i.e student id card)</i></p>
+                <br>
+                <h3><b>Additional fees</b></h3>
+                <br>
+                <p>3D movies: +3kn</p>
+                <p>150min+ duration: +2kn</p>
+                
+              </div>
+            </div>
+          </div>
+    </section>
+ 
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    /*overflow: hidden;*/
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+   
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active{
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  #movies{
+    background: #6e7bbc;
+    height: 100%;
+  }
+
+  
+  #home{
+    background-image:url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/f9/ad/1e/bacvice-open-air-cinema.jpg?w=1200&h=1200&s=1");
+    background-size: cover;
+    margin-top: 50px;
+    color: #b567b3;
+    font-weight: bold;
+  }
+
+
+  section{
+      width:100%;
+      height:1000px;
+      float:left;
+  }
+
+  nav{
+      width:100%;
+      position:fixed;
+      z-index:1;
+      top:80px;
+  }
+
+
+
+  #home p{
+      margin: 80px 20px;
+      font-size: 2em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+ 
+
+  #menu{
+    background-image: url("https://www.nsbuzz.ca/wp-content/uploads/2020/03/cineplexdeliveryfeature.jpg");
+    background-size: cover;
+    opacity: 0.8;
+  }
+
+  #prices{
+    background-image: url("https://media.istockphoto.com/vectors/vector-red-cinema-ticket-isolated-on-white-background-cinema-ticket-vector-id1125337516?k=20&m=1125337516&s=612x612&w=0&h=YogThutB36EsipEjxyDd9qQDYwzTykBdh_Ondu7_wSk=");
+    background-size: 49%;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+  #about{
+    background: #04AA6D;
+  }
+
+  #contact{
+    background: #C4329A;
+  }
+
+  #priceList, #menuList{
+      padding-top: 70px;
+      font-size: 1.1em;
+      font-weight: 700;
+      color: #000
+  }
+
+  #priceList h2, #menuList h2 {
+      font-size:2em;
+      font-weight: bold;
+  }
+
+  #moviesList{
+      padding-left: 10rem;
+      width: 100%;
+  }
+
+  #movie{
+    margin-top: 35px;
+  }
+
+  #movie h3{
+      color:#21483a;
+      font-weight: 700;
+      margin-top: 0ch;
+  }
+  
+
+  #dayTime{
+    font-size: 1.8em;
+    font-weight: 500;
+  }
+
+
+  #description{
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+  }
+
+  #buy{
+      font-size: 1.3em;
+      margin-top: 1em;
+
+  }
+
+  button{
+      margin-left: 2em;
+      
+  }
+
+
+  @media screen and (max-width: 840px) {
+    #movies{
+      height: 100%;
+    }
+    #menu{
+      background-image: url("https://www.nsbuzz.ca/wp-content/uploads/2020/03/cineplexdeliveryfeature.jpg");
+      background-size: contain;
+      opacity: 0.8;
+      
+    }
+  }
+
+
+  @media screen and (max-width: 480px) {
+    #movies{
+        height:100%;
+    }
+
+    #home{
+      background-image:url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/f9/ad/1e/bacvice-open-air-cinema.jpg?w=1200&h=1200&s=1");
+      background-position-x:center;
+      color: #c86aae;
+    }
+    
+    #description{
+      font-weight: 400;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color: #000;
+      width:70%;
+      padding-top: 2rem;
+    }
+
+    #prices{
+      background-size: 25%;
+      background-repeat:repeat-x; 
+      background-color: #87dabb;
+      padding-top: 5rem;
+    }
+
+    #menu{
+      background-image: url("https://fox5theatre.com/wp-content/uploads/2020/03/PopcornCombo.jpg");
+      background-size: 20%;
+      background-repeat:repeat-x; 
+      background-color: rgb(239, 165, 138);
+ 
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    button{
+      margin-top: 1rem;
+      margin-left: 7.5rem;
+    }
+  }
+
+
+
+
+
+ 
